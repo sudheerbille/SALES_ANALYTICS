@@ -1,0 +1,15 @@
+sources:
+  - name: tpch
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+    tables:
+      - name: CUSTOMER  
+        description: "customer master data"
+      - name: orders
+        description: "order placed by customers"
+      - name: lineitem
+        description: "Line items of orders"
+      - name: region
+        description: "Geographical regions"
+      - name: nation
+        description: "Countries/nation info"
